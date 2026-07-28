@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SCHEDULE_EVENTS } from '../data/mockData';
 import { ScheduleEvent } from '../types';
 import { Clock, MapPin, PhoneCall, Search, Calendar, User, Sparkles, Share2, Bookmark } from 'lucide-react';
+import pramodImg from '../assets/images/pramod_baviskar.jpg';
 
 interface ScheduleProps {
   onSelectEvent: (event: ScheduleEvent) => void;
@@ -76,20 +77,10 @@ export const Schedule: React.FC<ScheduleProps> = ({ onSelectEvent, onOpenRegiste
               {/* Speaker Photo */}
               <div className="relative w-full max-w-xs aspect-[3/4] rounded-2xl overflow-hidden border-2 border-slate-700/80 shadow-2xl mb-5 group-hover:border-emerald-400 transition-colors">
                 <img
-                  src="https://inspiria-5-0.vercel.app/images/speakers/Pramod%20Baviskar.jpg"
+                  src={pramodImg}
                   alt="Mr. Pramod Baviskar"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    if (!target.dataset.tried1) {
-                      target.dataset.tried1 = 'true';
-                      target.src = 'https://inspiria-5-0.vercel.app/images/Pramod%20Baviskar.jpg';
-                    } else if (!target.dataset.tried2) {
-                      target.dataset.tried2 = 'true';
-                      target.src = 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80';
-                    }
-                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#090d1f] via-transparent to-transparent opacity-30 pointer-events-none" />
               </div>

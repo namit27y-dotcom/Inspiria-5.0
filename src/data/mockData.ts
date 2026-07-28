@@ -1,4 +1,5 @@
 import { ScheduleEvent, Testimonial, TeamMember, FAQItem } from '../types';
+import pramodImg from '../assets/images/pramod_baviskar.jpg';
 
 export const SCHEDULE_EVENTS: ScheduleEvent[] = [
   {
@@ -13,7 +14,7 @@ export const SCHEDULE_EVENTS: ScheduleEvent[] = [
       name: 'Mr. Pramod Baviskar',
       role: 'AI Data Science Analyst',
       company: 'Accenture Strategy & Consulting',
-      avatar: 'https://inspiria-5-0.vercel.app/images/speakers/Pramod%20Baviskar.jpg',
+      avatar: pramodImg,
       tags: ['KEYNOTE SPEAKER', 'INDUSTRY EXPERT'],
       bio: 'Specializing in AI, GenAI and data-driven systems, his professional journey reflects the evolving demands of today\'s tech industry.'
     },
