@@ -1,0 +1,6 @@
+{
+  "name": "Inspiria 5.0",
+  "description": "Official website clone for Inspiria 5.0 - The flagship tech summit & blueprint for your future by TPC-PCE Pillai College of Engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
