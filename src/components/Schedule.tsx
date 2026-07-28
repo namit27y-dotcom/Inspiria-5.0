@@ -81,6 +81,13 @@ export const Schedule: React.FC<ScheduleProps> = ({ onSelectEvent, onOpenRegiste
                   alt="Mr. Pramod Baviskar"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    if (!target.dataset.tried) {
+                      target.dataset.tried = 'true';
+                      target.src = '/images/speaker.jpg';
+                    }
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#090d1f] via-transparent to-transparent opacity-30 pointer-events-none" />
               </div>

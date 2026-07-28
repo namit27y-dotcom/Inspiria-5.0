@@ -3,32 +3,32 @@ import { Camera, Sparkles } from 'lucide-react';
 
 const GALLERY_IMAGES = [
   {
-    url: 'https://inspiria-5-0.vercel.app/images/gallery-6.jpg',
+    url: '/images/gallery-6.jpg',
     title: 'Auditorium Keynote Session',
     tag: 'Inspiria Highlights'
   },
   {
-    url: 'https://inspiria-5-0.vercel.app/images/about-tpc-group.jpg',
+    url: '/images/about-tpc-group.jpg',
     title: 'TPC-PCE Organizing Team',
     tag: 'Leadership & Vision'
   },
   {
-    url: 'https://inspiria-5-0.vercel.app/images/gallery-1.jpg',
+    url: '/images/gallery-1.jpg',
     title: 'Student Interactive Workshops',
     tag: 'Hands-on Learning'
   },
   {
-    url: 'https://inspiria-5-0.vercel.app/images/gallery-2.jpg',
+    url: '/images/gallery-2.jpg',
     title: 'Panel Discussions & Q&A',
     tag: 'Corporate Insights'
   },
   {
-    url: 'https://inspiria-5-0.vercel.app/images/gallery-3.jpg',
+    url: '/images/gallery-3.jpg',
     title: 'Networking & Mentorship',
     tag: 'Alumni Ecosystem'
   },
   {
-    url: 'https://inspiria-5-0.vercel.app/images/gallery-4.jpg',
+    url: '/images/gallery-4.jpg',
     title: 'Placement Strategy Talks',
     tag: 'Career Growth'
   }

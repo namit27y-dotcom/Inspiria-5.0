@@ -45,7 +45,7 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5 space-y-6">
             <div className="relative rounded-2xl overflow-hidden border border-emerald-500/30 bg-slate-900 shadow-2xl group">
               <img
-                src="https://inspiria-5-0.vercel.app/images/about-tpc-group.jpg"
+                src="/images/about-tpc-group.jpg"
                 alt="Training & Placement Cell Group"
                 referrerPolicy="no-referrer"
                 className="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition-transform duration-700"

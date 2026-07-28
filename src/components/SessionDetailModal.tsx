@@ -33,7 +33,7 @@ export const SessionDetailModal: React.FC<SessionDetailModalProps> = ({ event, o
                 const target = e.target as HTMLImageElement;
                 if (!target.dataset.tried) {
                   target.dataset.tried = 'true';
-                  target.src = 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80';
+                  target.src = '/images/speaker.jpg';
                 }
               }}
             />

@@ -40,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenRegister, activeSection })
           {/* Logo matching Inspiria official design */}
           <a href="#home" className="flex items-center gap-3 group">
             <img
-              src="https://inspiria-5-0.vercel.app/images/inspiria%20logo.png"
+              src="/images/inspiria logo.png"
               alt="Inspiria 5.0"
               referrerPolicy="no-referrer"
               className="h-10 sm:h-12 w-auto object-contain group-hover:scale-105 transition-transform drop-shadow-[0_0_12px_rgba(52,211,153,0.3)]"
